@@ -1,0 +1,5 @@
+﻿*.tar.gz
+*.exe
+plain-secret.yaml
+__pycache__/
+.pytest_cache/
