@@ -1,5 +1,16 @@
-﻿*.tar.gz
-*.exe
-plain-secret.yaml
+﻿# Python artifacts
 __pycache__/
-.pytest_cache/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Local secret files
+plain-secret.yaml
+*.env
+
+# OS and local tooling artifacts
+.DS_Store
+Thumbs.db
+kubeseal.tar.gz
+kubeseal.exe
