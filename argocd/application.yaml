@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/https://github.com/Mcakohli/<k8s-guardian>.git
+    repoURL: https://github.com/Mcakohli/k8s-guardian.git
     targetRevision: HEAD
     path: k8s/base
   destination:
