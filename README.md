@@ -25,8 +25,7 @@ Most baseline Kubernetes deployments fail in production when under real-world st
 ---
 
 ## 🏗️ Architecture Topology
-
-              ┌────────────────────────┐
+┌────────────────────────┐
               │   GitHub Repository    │
               │  (k8s-guardian /main)  │
               └───────────┬────────────┘
@@ -50,7 +49,7 @@ Most baseline Kubernetes deployments fail in production when under real-world st
               └───────────┬────────────┘
                           │ Validated Manifests
                           ▼
-          ┌────────────────----------------┐
+          ┌────────────────────────────────┐
           │     Worker Node Workloads      │
           │  • k8s-guardian-app (3 pods)   │
           │  • Sealed Secrets Controller   │
